@@ -1,0 +1,148 @@
+@media screen and (max-width: 900px) {
+	#forest{
+		width: 200%;
+	}
+}
+@media screen and (max-width: 770px) {
+}
+@media screen and (min-width: 486px) and (max-width: 770px) and (orientation : landscape) {
+	body{
+		width: 100%;
+	}
+	.image{
+		height: 400px;
+	}
+	.head{
+		width: 40%;
+	}
+	.l{
+		width: 70%;
+		left: 1.8%;
+		font-size: 0.7rem;
+		padding-top: -0.5rem;
+	}
+	.tb{
+		padding: 0% 3%;
+	}
+	#bryan{
+		font-size: 4.5rem;
+		bottom: 15%;
+	}
+	.col-sm-4{
+		padding: 10rem 1rem;
+	}
+	.col-sm-3{
+		width: 60%;
+	}
+	#page{
+		width: 61%;
+		left: 39%;
+	}
+	.body{
+		position: fixed;
+		font-size: 1rem!important;
+		backdrop-filter: blur(5px);
+		float: left!important;
+		left: 2%;
+		bottom: 2%;
+		width: 30%;
+		padding: 3px 3px;
+		background-color: rgba(255, 255, 255, 0.2);
+		border-radius: 3%;
+	}
+}
+@media screen and (max-width: 485px) and (orientation: portrait) {
+	body{
+		width: 100%;
+	}
+	.toast-header{
+		display: block !important;
+		width: 100% !important;
+	}
+	.image{
+		height: 1000px;
+	}
+	#forest{
+		width: 400%;
+	}
+	.head{
+		/*width: 65%;*/
+		width: 100%;
+		/*right: 2rem;*/
+		text-align: center;
+		position: relative;
+		/*left: -20% !important;*/
+		left: 0% !important;
+		clear: both !important;
+		text-align: center;
+	}
+	.l{
+		width: 105%;
+		clear: both !important;
+		float: left;
+		text-align: center;
+		left: -1vh;
+		font-size: 0.7rem;
+		padding-top: 1rem;
+		padding-bottom: 0.5rem;
+	}
+	.tb{
+		padding: 0% 2%;
+	}
+	#bryan{
+		border: 0px;
+		width: 70%;
+		font-size: 5rem;
+		text-align: right;
+		left: 2.5%;
+		line-height: 15vh;
+		bottom: 20%;
+	}
+	.col-sm-5{
+		width: 100% !important;
+		padding-left: 0rem;
+		padding: 2rem 4rem;
+	}
+	.col-sm-7{
+		padding-left: 0rem;
+		padding: 0rem 2rem !important;
+		text-align: justify;
+	}
+	.col-sm-3{
+		width: 80%;
+	}
+	#line28{
+		padding-right: 1rem;
+	}
+	#u{
+		width: 100% !important;
+		display: block;
+	}
+	.card-header{
+		margin-top: 90px;
+	}
+	.cookie{
+		width: 98%;
+	}
+	.website{
+		width: 88%;
+		margin-bottom: 2rem!important;
+	}
+	.video{
+		width: 88%;
+	}
+	#page{
+		top: 2%
+	}
+	.body{
+		font-size: 1rem
+	}
+}
+@media screen and (max-width: 320px) {
+	#bryan{
+		font-size: 4.5rem;
+	}
+	.l{
+		font-size: 0.6rem;
+	}
+}

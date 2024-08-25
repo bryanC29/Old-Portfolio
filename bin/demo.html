@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+	<style type="text/css">
+		.img{
+			width: 10%;
+			cursor: pointer;
+		}
+		.modal{
+			z-index: 105;
+			top: 0;
+			left: 0;
+			display: none;
+			position: fixed;
+			color: #fff;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.7);
+		}
+		#h{
+			width: 30%;
+		}
+	</style>
+	<script type="text/javascript">
+		function myFunction(imgs){
+			var pic = document.getElementById('h');
+			pic.src = imgs.src;
+			pic.parentElement.style.display = 'block';
+		}
+		function hide() {
+			var cross = document.getElementById('hide');
+			cross.style.display = 'none';
+		}
+	</script>
+</head>
+<body>
+	<img src="https://image.shutterstock.com/shutterstock/photos/1978732343/display_1500/stock-photo-random-door-at-night-with-lantern-d-rendering-1978732343.jpg" class="img" onclick="myFunction(this)">
+	<img src="../Utilities/logo.png" class="img" onclick="myFunction(this)">
+	<img src="../Utilities/logo5.png" class="img" onclick="myFunction(this)">
+	<div class="modal" id="hide">
+		<img id="h">
+		<span onclick="hide()">Close</span>
+	</div>
+</body>
+</html>
